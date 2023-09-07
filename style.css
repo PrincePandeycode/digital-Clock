@@ -1,0 +1,83 @@
+body{
+              
+    background-image: url("clock2.jpg");
+    
+
+}
+
+
+.one{
+  
+    display: flex;
+    padding:20px ;
+    background-color: black;
+    margin: 10;
+    justify-content: center;
+    position: relative;
+   
+}
+
+.date{
+    color: black;
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+}
+.hour{
+    border:  12px solid gray;
+    color: white;
+    padding:10px 10px;
+    border-radius: 7px;
+    font-size:100px;;
+
+}
+.minute{
+    border:  12px solid gray;
+    color: white;
+    padding:10px 10px;
+    border-radius: 7px;
+    font-size:100px;
+}
+.colon{
+  
+    color: white;
+    padding:10px 10px;
+    border-radius: 7px;
+    font-size:100px;;
+}
+.second{
+    border:  12px solid gray;
+    color: white;
+    padding:10px 10px;
+    border-radius: 7px;
+    font-size:100px;;
+}
+.navi{
+    display: flex;
+    justify-content: center;
+    padding: 20px 5px;
+    background-color: gray;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    position: relative;
+    
+    
+}
+.datuper{
+    border:  1px solid #1d03034e;
+    margin: 10 20;
+    padding: 10px 20px;
+    color: black;
+    
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+    background-color: gray;
+    position: relative;
+}
+.demo-wrap{
+    overflow: hidden;
+    position: relative;
+}
